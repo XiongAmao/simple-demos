@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Deal Of The Day">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Of The Day</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div style="max-width:500px;margin-left:auto;margin-right:auto">
+        <p >设计来源uifuse：<a href="http://uifuse.com/deal-of-the-day-psd/">http://uifuse.com/deal-of-the-day-psd/</a></p>
+        <h4>待补充的：</h4>
+        <ol style="margin-left:20px;">
+            <li>单独设置时间长短</li>
+            <li>以日期结算时间</li>
+        </ol>
+    </div>
+
+    <main class="deal-box">
+
+        <div class="setting">
+            <div>
+                <span>DEAL ENDS IN</span>
+                <span>xxx</span>
+            </div>
+            <div>
+                <span>Time Setting</span>
+                <div>
+                    <button class="button">-</button><button class="button">+</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="timer">
+            <div class="time-figure">
+                <span id=days>01</span> :
+                <span id=hours>14</span> :
+                <span id=minutes>35</span> :
+                <span id=seconds>00</span>
+            </div>
+            <div class="time-abbr">
+                <span>Day</span>
+                <span>Hrs</span>
+                <span>Min</span>
+                <span>Sec</span>
+            </div>
+        </div>
+
+        <div class="price-box">
+            <div>
+                <div class="regular-price">Was:<span>$299</span></div>
+                <div class="spot-price">Now:<span>$199</span></div>
+            </div>
+            <div class="deal-start">
+                <div class="left">
+                    <</div>
+                        <div class="start" id="start">DEAL</div>
+                        <div class="right">></div>
+                </div>
+            </div>
+
+    </main>
+    <nav>
+
+
+    </nav>
+</body>
+<script src="./count-down.js"></script>
+
+</html>
