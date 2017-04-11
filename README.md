@@ -1,5 +1,5 @@
 # simple page demo
-- demo-01：[一个简单的自适应页面demo](https://xiongamao.github.io/simple-demos/index.html)
+- demo-01：[一个简单的自适应页面demo](https://xiongamao.github.io/simple-demos/a-simple-page/index.html)
 - demo-02：[简单的导航栏（仿多玩首页）](https://xiongamao.github.io/simple-demos/nav-demo/navigation.html)
 - demo-03：[诗词填空题](https://xiongamao.github.io/simple-demos/yulu-generator/yulu-generator.html)
 
