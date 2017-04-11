@@ -222,3 +222,17 @@ body{
     color: #0CC2AA;
     transition-duration: 0.1s;
 }
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    font-family: monospace;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+footer a:visited {
+    color: grey;
+}
