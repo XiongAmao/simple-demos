@@ -9,6 +9,9 @@ console.log(total)
 function restart() {
     total = 24 * 3600 + 14 * 3600 + 36 * 60
 }
+
+// 缺少重试样式
+
 var timer
 startButton.addEventListener('click', function () {
     restart()
