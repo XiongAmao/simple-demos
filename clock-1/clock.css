@@ -12,8 +12,8 @@ body{
   align-items: center;
 }
 .clock{
-  /*border: 24px solid #FF3E3E;*/
-  border:24px solid #FEED57;
+  border: 24px solid #FF3E3E;
+  /*border:24px solid #FEED57;*/
   width: 400px;
   background: #FFFFFF;
   height: 400px;
