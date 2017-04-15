@@ -19,9 +19,7 @@ function step() {
   var secondHand = document.querySelector('.second-hand')
   var minuteHand = document.querySelector('.minute-hand')
   var hourHand = document.querySelector('.hour-hand')
-  console.log(secondHand)
-  console.log(minuteHand)
-  console.log(hourHand)
+
   setHandsStyle(secondDeg,secondHand)
   setHandsStyle(minuteDeg,minuteHand)
   setHandsStyle(hourDeg,hourHand)
