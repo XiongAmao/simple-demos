@@ -42,53 +42,56 @@ body{
 .clock .hands-wrapper .hand{
   position: absolute;
   left:50%;
-  top:50%;
+  /*top:50%;*/
 
 }
 
 .clock .second-hand{
-  width: 128px;
-  height:2px;
-  transform: rotate(-90deg);
-  transform-origin: 0 1px;
-  margin-top:-1px;
-  border-radius: 3px;
-  background: rgba(255,0,0,0.9);
+    width: 2px;
+    height: 128px;
+    transform: rotate(0deg);
+    transform-origin: 1px 128px;
+    margin-left: -1px;
+    border-radius: 3px;
+    background: rgba(255,0,0,0.9);
+    bottom: 178px;
 }
 .clock .minute-hand{
-  background: black;
-  height: 8px;
-  width:100px;
-  margin-top: -4px;
-  transform: rotate(-90deg); 
-  transform-origin: 0 4px;
+    background: black;
+    height: 100px;
+    width: 8px;
+    margin-left: -4px;
+    transform: rotate(0deg);
+    top: 75px;
+    transform-origin: 4px 100px;
 }
 .minute-hand::after{
-  content: '';
-  position: absolute;
-  border-top:10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left:12px black solid ;
-  top:-6px;
-  left:99px;
+    content: '';
+    position: absolute;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 18px black solid;
+    top: -10px;
+    left: -6px;
 }
 
 .clock .hour-hand{
-  width: 80px;
-  height: 6px;
-  background: black;
-  margin-top: -3px;
-  transform: rotate(-90deg);
-  transform-origin: 0 3px;
+    width: 6px;
+    height: 80px;
+    background: black;
+    margin-left: -3px;
+    transform: rotate(0deg);
+    transform-origin: 3px 80px;
+    top: 94px;
 }
 .hour-hand::after{
-  content: '';
-  position: absolute;
-  border-top:10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left:12px black solid ;
-  top:-6px;
-  left:79px;
+    content: '';
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px black solid;
+    top: -10px;
+    left: -5px;
 }
 
 .clock  .dot{
@@ -96,8 +99,8 @@ body{
   width: 28px;
   border-radius: 50%;
   background: white;
-  top:46.1%;
-  left:46.1%;
+  top:161.5px;
+  left:161.5px;
   position: absolute;
   box-shadow:0 1px 0.3px 1px #888888;
 }
