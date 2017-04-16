@@ -37,10 +37,10 @@ function step() {
 function setHandsStyle(deg,hand){
   if(deg===0){
     hand.style.transform = `rotate(${deg}deg)`
-    hand.style.transition=`all 0s`
+    // hand.style.transition=`all 0s`
   }else{
     hand.style.transform = `rotate(${deg}deg)`
-    hand.style.transition='all 0.3s cubic-bezier(.04, 1.8, .66, .8)'
+    // hand.style.transition='all 0.3s cubic-bezier(.04, 1.8, .66, .8)'
   }
 
 }
