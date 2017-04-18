@@ -4,7 +4,8 @@
 - demo-03：[诗词填空题](https://xiongamao.github.io/simple-demos/yulu-generator/yulu-generator.html)
 - demo-04：[特价时间倒数器](https://xiongamao.github.io/simple-demos/deal-of-the-day/deal-of-the-day.html)
 - demo-05：[时钟](https://xiongamao.github.io/simple-demos/clock-1/clock.html)
-
+- demo-06：[3D hover](https://xiongamao.github.io/simple-demos/3d-hover-demo/3d-hover.html)
+- demo-07：[3D eye](https://xiongamao.github.io/simple-demos/3d-eyes/3d-eye.html)
 
 ## TODO LIST
 1. demo-01[简单的自适应页面demo]
