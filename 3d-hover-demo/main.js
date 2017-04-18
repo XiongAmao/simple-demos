@@ -12,10 +12,10 @@ function fn(e){
     // 获取鼠标至中心的距离差值，中心点左上方为负，右下为正
     let xPercent = xDiff / (boxWidth/2)
     let yPercent = yDiff / (boxHeight/2)
-    console.log(xPercent, yPercent)
+
     // 换成百分比
-    let xDeg = xPercent * 10
-    let yDeg = yPercent * 10
+    let xDeg = xPercent * 5
+    let yDeg = yPercent * 3
     // 角度
     
     banner.style.transform = `translateZ(-50px) rotateX(${-yDeg}deg) rotateY(${xDeg}deg)`
