@@ -1,25 +1,34 @@
 var wrapper = document.querySelector('.wrapper')
-console.log(wrapper)
 var eye = document.querySelector('.eye')
 
 
-function fn(e){
+function fn(e) {
     let Width = wrapper.getBoundingClientRect().width
     let Height = wrapper.getBoundingClientRect().height
     // console.log(boxWidth,boxHeight)
     // 取监听容器的高宽
-    let xDiff = e.clientX - (wrapper.offsetLeft + Width / 2)  
-    let yDiff = e.clientY - (wrapper.offsetTop + Height / 2) 
+    rotateDeg = -45
+    let Radian = 2 * Math.PI / 360 * rotateDeg
+    let xClient = e.clientX
+    let yClient = e.clientY
+    let xDiff = xClient - (wrapper.offsetLeft + Width / 2)
+    let yDiff = yClient - (wrapper.offsetTop + Height / 2)
     // 获取鼠标至中心的距离差值，中心点左上方为负，右下为正
-    let xPercent = xDiff / (Width/2)
-    let yPercent = yDiff / (Height/2)
+    
+    let yRotation = xDiff*Math.cos(Radian) - yDiff*Math.sin(Radian)
+    let XRotation = -xDiff*Math.sin(Radian) - yDiff*Math.cos(Radian)
+    
+    let xPercent = XRotation / (Width / 2)
+    let yPercent = yRotation / (Height / 2)
 
     // 换成百分比
-    let xDeg = xPercent * 20 
-    let yDeg = yPercent * 20
+    let xDeg = xPercent * 30
+    let yDeg = yPercent * 15
     // 角度
-    
-    eye.style.transform = `rotate(-45deg) rotateX(${-yDeg}deg) rotateY(${xDeg}deg)`
+
+
+    // if(){    }
+    eye.style.transform = `rotate(${rotateDeg}deg) rotateX(${-yDeg}deg) rotateY(${xDeg}deg)`
 
 }
 wrapper.addEventListener('mousemove', fn)
