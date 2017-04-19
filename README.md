@@ -28,6 +28,7 @@
 5. demo-06
     - 添加动态简历进去
 
+
 ## ISSUES
 
 1. demo-05
@@ -36,3 +37,7 @@
 2. demo-07
     - ~~由于transition:rotate(-45deg)的原因，旋转角度需要重新计算~~
     - 动画有点卡顿
+
+## Ideas
+
+1. demo-6做成游戏banner，效仿锤子官网
