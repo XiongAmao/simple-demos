@@ -36,7 +36,7 @@
     - background画出的针`transition=all 0.3s cubic-bezier(.04, 1.8, .66, .8)`会在指针转动时留下阴影
 2. demo-07
     - ~~由于transition:rotate(-45deg)的原因，旋转角度需要重新计算~~
-    - 动画有点卡顿
+    - ~~动画有点卡顿~~
 
 ## Ideas
 
