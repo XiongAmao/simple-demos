@@ -6,6 +6,7 @@
 - demo-05：[时钟](https://xiongamao.github.io/simple-demos/clock-1/clock.html)
 - demo-06：[3D hover](https://xiongamao.github.io/simple-demos/3d-hover-demo/3d-hover.html)
 - demo-07：[3D eye](https://xiongamao.github.io/simple-demos/3d-eyes/3d-eye.html)
+- demo-08：[requireJS](https://xiongamao.github.io/simple-demos/requirejs/index.html)
 
 ## TODO LIST
 1. demo-02[简单的导航栏（仿多玩首页）]

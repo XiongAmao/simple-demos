@@ -1,13 +1,15 @@
 require.config({
-    baseUrl:"libs/vendor",
-    paths:{
-        "jquery":"jquery.min"
+    "baseUrl": "libs/vendor",
+    "paths": {
+        "jquery": "jquery.min"
+    },
+    "shim": {
     }
 })
 
-require(['jquery'],function($){
+require(['jquery'], function ($) {
     var $helloworld = $('body').append($('<h1>Hello World!</h1>'))
-    setTimeout(()=>{
+    setTimeout(() => {
         $helloworld.append($('<h2>Use jQuery & requireJS!</h2>'))
-    },2000)
+    }, 1000)
 })
