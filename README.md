@@ -8,24 +8,20 @@
 - demo-07：[3D eye](https://xiongamao.github.io/simple-demos/3d-eyes/3d-eye.html)
 
 ## TODO LIST
-1. demo-01[简单的自适应页面demo]
-    - 为<img>添加图片源
-    - 图片成比例缩放
-    - 页面缩放动画应用
-2. demo-02[简单的导航栏（仿多玩首页）]
+1. demo-02[简单的导航栏（仿多玩首页）]
     - 迷之bug：jsbin 会割裂情况，但是正常浏览器没有
     - 修复选中后border撑宽整个框体的bug
     - 修复 1px 割裂的问题
     - 添加box-shadow
     - 重写一个CSS样式的导航栏（使用其他方法）
-3. demo-04[特价时间倒数器]
+2. demo-04[特价时间倒数器]
     - 时间长短设置
     - 根据日期进行设置，显示距离特价结束时间/开始时间的剩余时间
     - 特价价格设置 
-4. demo-05
+3. demo-05
     - 优化阴影
     - 修复bug
-5. demo-06
+4. demo-06
     - 添加动态简历进去
 
    
